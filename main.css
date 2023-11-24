@@ -8,6 +8,10 @@ body{
 	flex-flow: column;
 }
 
+header, .content{
+	color: white;
+}
+
 header{
 	display: flex;
 	justify-content: space-around;
