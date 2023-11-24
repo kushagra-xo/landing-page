@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	font-family: sans;
+}
+
+.homepage{
+	display: flex;
+	flex-flow: column;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	background: #1f2937;
+	padding: 2%;
+	align-items: center;
+}
+
+nav{
+	display: flex;
+	gap: 20%;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.content{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+	background: #1f2937;
+	padding: 5%;
+	align-items: center;
+	gap: 10%;
+}
+
+.image img{
+	height: 400px;
+	border-radius: 5%;
+}
+
+.big-desc{
+	font-size: xx-large;
+	font-weight: 900;
+}
+
+.desc button{
+	background: #3882F6;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.products{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	background: #ffffff;
+	padding: 5%;
+	align-items: center;
+	gap: 40px;
+	color: #1f2937;
+}
+
+.products .header{
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.products .images{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.products .images img{
+	height: 300px;
+	border-radius: 10px;
+}
+
+.products figcaption{
+	margin: 10px;
+}
+
+.quote{
+	font-size: large;
+	font-style: italic;
+	padding: 10%;
+	background: #E5E7EB;
+	color: #1F2937
+}
